@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.font-noto {
+  font-family: "Noto Serif", serif;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.flower-container {
+  gap: 60px;
+}
+
+.section-gap {
+  margin-top: 60px;
+}
+
+.disply-flex {
+  display: flex;
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.paragraph {
+  font-size: 22px;
+  color: #00000080;
+}
+
+.list-item {
+  margin-top: 20px;
+}
+
+.badge {
+  position: absolute;
+  width: 286px;
+  height: 286px;
+  top: -100px;
+  right: -90px;
+  filter: drop-shadow(-4px 10px 4px #000000);
+
+}
+
+.img-container {
+  position: relative;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width:576px) {
+  .flower-container {
+    flex-direction: column;
+    gap: 18px;
+
+  }
+
+  .store-img {
+    width: 100%;
+  }
+
+  .badge {
+    display: none;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .paragraph {
+    font-size: 14px;
+  }
+
+  .list-item {
+    margin-top: 16px;
+  }
+}
